@@ -16,7 +16,7 @@ endif
 let g:loaded_syntastic_idris_idris_checker=1
 
 function! SyntaxCheckers_idris_idris_IsAvailable()
-    return executable("idris2")
+    return executable("pack")
 endfunction
 
 if !exists("g:syntastic_idris_options")
